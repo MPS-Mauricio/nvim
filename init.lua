@@ -8,3 +8,9 @@ require("config_lazy")
 
 require("plugins.tema")
 require("plugins.tree")
+
+--
+--	LSP
+--
+
+require("config.lsp")
