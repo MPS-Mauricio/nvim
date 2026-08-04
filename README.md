@@ -1,0 +1,4 @@
+# NSvim
+
+## REQUISITOS
+- pyright
