@@ -1,13 +1,20 @@
-vim.lsp.config("lua_ls", {})
-vim.lsp.enable("lua_ls")
+vim.lsp.config("lua_ls", {
+	settings = {
+		Lua = {
+			runtime = {
+				version = "LuaJIT",
+			},
+			diagnostics = {
+				globals = { "vim" },
+			},
+			workspace = {
+				checkThirdParty = false,
+			},
+			telemetry = {
+				enable = false,
+			},
+		},
+	}
+})
 
-settings = {
-	Lua = {
-		diagnostics = {
-			globals = { "vim" },
-		},
-		workspace = {
-			checkThirdParty = false,
-		},
-	},
-}
+vim.lsp.enable("lua_ls")

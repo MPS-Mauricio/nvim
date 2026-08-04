@@ -2,3 +2,4 @@
 
 ## REQUISITOS
 - pyright
+- lua-language-server
