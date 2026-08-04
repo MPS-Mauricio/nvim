@@ -7,10 +7,10 @@ require("config_lazy")
 --
 
 require("plugins.tema")
-require("plugins.tree")
+require("plugins.treesitter")
 
 --
 --	LSP
 --
 
-require("lsp.pyright")
+require("config.lsp")
