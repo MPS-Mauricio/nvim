@@ -13,4 +13,4 @@ require("plugins.tree")
 --	LSP
 --
 
-require("config.lsp")
+require("lsp.pyright")
