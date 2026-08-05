@@ -7,3 +7,4 @@ vim.diagnostic.config({
 
 require("lsp.pyright")
 require("lsp.lua_ls")
+require("lsp.clangd")
