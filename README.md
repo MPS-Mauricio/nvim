@@ -5,3 +5,4 @@
 - lua-language-server
 - clang
 - rust-analyzer
+- jdtls
