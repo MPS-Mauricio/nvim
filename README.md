@@ -6,3 +6,4 @@
 - clang
 - rust-analyzer
 - jdtls
+- texlab

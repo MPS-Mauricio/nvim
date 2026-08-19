@@ -9,6 +9,7 @@ require("lsp.pyright")
 require("lsp.lua_ls")
 require("lsp.clangd")
 require("lsp.rust_analyzer")
+require("lsp.latex")
 
 vim.api.nvim_create_autocmd("FileType",{
 	pattern = "java",
